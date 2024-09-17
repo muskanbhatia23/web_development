@@ -1,7 +1,20 @@
 body{
-    background-color: rgb(239, 147, 147);
+    background-color: rgb(124, 140, 52);
     color:white;
 }
 td{
     border:2px solid black;
+}
+.list{
+    color:black;
+}
+.h3{
+    color:black
+}
+p{
+    background-color: aquamarine;
+    color:rgb(255, 255, 255);
+}
+a{
+    background-color: rgb(62, 2, 40)
 }
