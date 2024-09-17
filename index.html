@@ -1,28 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>First Page</title>
+    <title>Images</title>
     <link rel="stylesheet" href="first.css">
 </head>
+
 <body>
-<h1> My Bookmarks</h1>
-<h2> Primary Bookmarks</h2>
-<a target="_blank" href="http://www.google.com">Open Google</a><br> <!--Anchor tag for links--><!--target=_blank for open new tab-->
-<a target="_blank" href="http://www.facebook.com">Open Facebook</a><br>
-<a target="_blank" href="http://www.quora.com">Open Quora</a><br>
-<a target="_blank" href="http://www.youtube.com">Open Youtube</a><br>
-<a target="_blank" href="http://www.amazon.com">Open Amazon</a><br>
+    <h1>Image Tag</h1><!--inline css--><!--src is for path and alt is for name when path/image not available-->
+    <img wdith:"230" height="230" src="train.png" alt="Train Image"><br>
 
-<h2> Secondary Bookmarks</h2>
-<a target="_blank" href="http://www.wikipedia.com">Open Facebook</a><br>
-<a target="_blank" href="http://www.stackoverflow.com">Open Quora</a><br>
-<a target="_blank" href="http://www.audible.com">Open Audible</a><br>
-<a target="_blank" href="http://www.w3schools.com">Open W3 Schools</a><br>
+    <hr> <!--horizontal line-->
+    <h1>Table</h1>
+    <table border="1">
+        <caption>Person Details</caption><!--for caption/about table-->
 
-<p style="background-color:black;"">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat corrupti vero sequi magnam esse porro quaerat
-    veniam suscipit dolore voluptatem?</p> <!--lorem10 for 10 words and so on... p for paragraph tag-->
-<script src="script.js"></script>
+        <thead><!--Header Content-->
+            <tr><!--first table row-->
+                <th>Name</th><!--table headings-->
+                <th>Designation</th>
+                <th>Language</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr><!--Second table row-->
+                <td>Muskan</td><!--table data according to headings-->
+                <td>Programmer</td>
+                <td>JavaScript</td>
+            </tr>
+            <tr><!--Second table row-->
+                <td>Rajesh</td><!--table data according to headings-->
+                <td>Businessman</td>
+                <td>English</td>
+            </tr>
+
+            <tr><!--Second table row-->
+                <td>Brijesh</td><!--table data according to headings-->
+                <td colspan="2">Businessman</td>
+            </tr>
+        </tbody>
+        <tfoot><!--Footer Content-->
+            <tr><!--Second table row-->
+                <td colspan="3">Footer</td> <!--We write content inside header/footer/tbody to tager css(grouping)-->
+            </tr>
+        </tfoot>
+    </table>
+    <hr>
+    <h2>List</h2>
+    <h4>Three Lists</h4>
+    h5>1. Unoredered List &nbsp;&nbsp;&nbsp;&nbsp; 2. Oredered List&nbsp;&nbsp;&nbsp;&nbsp; 3. Definition List</h5>
+
+    <ul type="square"><!--Unordered List-->
+        <!--BY default disc(type), square, circle -->
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ul>
+    <ul type="circle">
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ul>
+    <ul>
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ul>
+    <ol type="A">
+        <!--Ordered List--><!--by default 1. 2. 3. ...., A, a, i, I -->
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ol>
+    <ol type="i">
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ol>
+    <ol type="a">
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ol>
+   
+    <ol>
+        <li>Muskan</li>
+        <li>Rajesh</li>
+        <li>Prince</li>
+        <li>Rayaan</li>
+    </ol>
+    <ol type="i"></ol>
+    <li>Muskan</li>
+    <li>Rajesh</li>
+    <li>Prince</li>
+    <li>Rayaan</li>
+</ol>
 </body>
+
+
 </html>
