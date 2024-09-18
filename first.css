@@ -13,8 +13,10 @@ td{
 }
 p{
     background-color: aquamarine;
-    color:rgb(255, 255, 255);
+    color:rgb(87, 87, 117);
 }
 a{
-    background-color: rgb(62, 2, 40)
+    background-color: rgb(216, 18, 144);
+    color: white;
+    word-spacing: 3px;
 }

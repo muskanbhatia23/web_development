@@ -1,0 +1,4 @@
+1. Without using br tag write a vertically aligned form
+   asking for name and city.
+2. Create a website which shows Videos of diiferent category and audio of different categories.
+   You can use youtube video in an iframe using youtube's embedded feature
