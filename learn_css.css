@@ -53,5 +53,5 @@ a:hover{
     background-color: yellow;
 }
 p:first-child{ /* apply to first paragraphs only inside some elemnets */
-    background-color:;
+    background-color:black;
 }
