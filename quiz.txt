@@ -2,3 +2,8 @@
    asking for name and city.
 2. Create a website which shows Videos of diiferent category and audio of different categories.
    You can use youtube video in an iframe using youtube's embedded feature
+3. You are given 6 audio and 6 video files 
+   Design a website usinh html only which shows these 12 files.
+   for audio-- mp3
+   for video-- mp4
+4. 
