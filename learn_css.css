@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(177, 142, 148);
+}
+
+/* Element Slector--- Drawback is every div will get this styling*/
+div {
+    background-color: red;
+    color: white;
+}
+
+/* Class Selector*/
+.yellow {
+    background-color: yellow;
+    color: blue;
+}
+
+/* id selector*/
+#green {
+    background-color: green;
+    color: grey;
+}
+
+/* child selector--same properties for div*/
+div>p {
+    color: blue;
+    background-color: white;
+}
+
+/*Descendent Selector*/
+div p {
+    /* paragraph should be inside div*/
+    color: blue;
+    background-color: white;
+}
+
+/*universal selector*/
+* {
+    Margin: 0px;
+    padding: 0px;
+}
+
+/*pseudo selectors*/
+a:active{ /*not working*/
+    background-color:black;
+}
+a:link{
+    color:green;
+}
+a:visited{
+    color:yellow
+}
+a:hover{
+    background-color: yellow;
+}
+p:first-child{ /* apply to first paragraphs only inside some elemnets */
+    background-color:;
+}
