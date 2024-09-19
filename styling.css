@@ -28,6 +28,7 @@ h2 {
     width: 300px;
     word-break: break-all;
     text-align: center;
+    background: Linear-gradient(to left, rgba(112,123,233),rgba(172,083,255)) ;/* */
     /*text-overflow: ellipsis;
     text-transform:uppercase;*/
 
