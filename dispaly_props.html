@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Properties</title>
+    <style>
+        
+        .box
+        {
+          border: 2px solid blue;
+          display: inline; /*to show block elemnts in same line*/
+          padding:45px; /*will not take margin from top*/
+        margin:30px;
+        display: grid;
+        }
+        .box2
+        {
+            position:relative;
+            border: 2px solid blue;
+            display:inline;
+            /*to show block elemnts in same line*/
+            padding:45px;
+            display: flex;
+            justify-content: center;   
+        }
+        .mydiv{
+            margin-top: 100px;
+            /*display:none; hide the content comes under same class mentionedt*/
+            display: block;
+            /*visibility: hidden; /*content will not be shown but space occupied will be there*/
+        }
+    </style>
+</head>
+<body> <!--want to show div in one line which is block element like span which is inline element -->
+    <div class="box">
+        I am a Box
+    </div>
+    <div class="box">
+        I am also a nice Box
+    </div>
+   
+    <div class="mydiv">
+    <div class="box2">
+        I am a Box
+    </div>
+    <div class="box2">
+        I am also a nice Box
+    </div>
+</div>
+    
+</body>
+</html>
