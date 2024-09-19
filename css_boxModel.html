@@ -4,18 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Box Model </title>
-    <style><!--internal css-->
+    <!--internal css-->
+    <style> 
         .box{
                background-color: aqua;
         }
-        
-    </style>
+        .box1{
+            color:brown;
+            padding:10px;
+            margin: 5px;
+            border:2px dashed blue;
+            height:200px;
+            box-sizing: border-box;
+        } 
+        .box2{
+            color:blue;
+            padding:10px;
+            margin: 25px;
+            border:2px dashed black;
+            height:200px;
+            box-sizing: border-box;
+    
+        }
+    </style><!--if there is a margin overlapping ..than maximum margin will be considered is called margin-collapsed-->
 </head>
 <body>
     <h1 style="color:red; margin-top :10px; text-align:center;">Box Model</h1>
      <center><img src="image1.png" alt=""></center><hr>
-     <div class="box">I am a Box</div>
-    
+     <div class="box box1">I am a Box</div>
+     <div class="box box2">I am another Box</div>
     
 </body>
 </html>
