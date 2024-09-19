@@ -6,4 +6,8 @@
    Design a website usinh html only which shows these 12 files.
    for audio-- mp3
    for video-- mp4
-4. 
+4. Write html code and css code to style a paragraph inside a div which contains 5 other paragraphs.
+   The first paragraph must have background color yellow and text color red. 
+   The HTML is written below for your refrence.
+   The other paragraphs must have background color blue and text color white.
+5.
