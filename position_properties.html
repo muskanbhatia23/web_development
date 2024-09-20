@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Postion Properties in CSS</title>
+    <style>
+        *
+        {
+            margin:0;
+            padding:0;
+        }
+        .box
+        {
+            border: 2px solid black;
+            height:133px;
+            width:80vh;
+            padding:3px;
+            margin:3px;
+            
+        }
+        
+        .box1
+        {
+            background-color: aqua;
+            position: absolute;
+            width:100%;
+            z-index: 5;/*whose z-index is greater it will shown above from all*/
+        }
+        .box2
+        {
+            background-color: red;
+            position: absolute;
+           
+            width:70%;
+        }
+        .box3
+        {
+            background-color: violet;
+            position: fixed;
+            margin-top: 40px;;
+        
+           
+            width:50%;
+        }
+        .box4
+        {
+            background-color: #a52a2a;
+            position:relative;
+            margin-top: 300px;
+            width:30%;
+        }
+        .box5
+        {
+            background-color: black;
+            position:sticky;
+            top: 0px;
+            width:100%;
+            height:111px;
+            margin: 0;
+            padding: 0;
+
+        }
+       .allinone
+       {
+        
+        padding: 3px;
+        margin:34px;
+        border: 2px solid violet;
+        height:200px;
+        width:100%
+       }
+    </style>
+</head>
+<body>
+    <!--By default position is static, it means top/bottom/left/right/z_index will not apply to it -->
+    <!--Relative position means(will assume bottom of something above it, its top and act accordingly--i can apply top/bottom/left/right properties to it -->
+    <div class="allinone">
+        <div class="box box5">I am a sticky box here</div>
+    <div class="box box1">I am a box 1 here</div>
+    <div class="box box2">I am a box 2 here</div>
+    
+    <div class="box box3">I am a box 3 here</div>
+    <div class="box box4">I am a box 4 here</div>
+    
+    <!--exception is when transformed/filter property is there it seems that elemnt is positioned-->
+</div>
+</body>
+</html>
